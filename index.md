@@ -3,32 +3,10 @@ layout: lesson
 root: .
 ---
 
-The best way to learn how to program is to do something useful,
-so this introduction to Python is built around a common scientific task:
-**data analysis**.
-
-### Arthritis Inflammation
-We are studying **inflammation in patients** who have been given a new treatment for arthritis, and
-need to analyze the first dozen data sets of their daily inflammation. The data sets are stored in
-[comma-separated values]({{ page.root }}/reference/#comma-separated-values) (CSV) format:
-
-- each row holds information for a single patient,
-- columns represent successive days.
-
-The first three rows of our first file look like this:
-~~~
-0,0,1,3,1,2,4,7,8,3,3,3,10,5,7,4,7,7,12,18,6,13,11,11,7,7,4,6,8,8,4,4,5,7,3,4,2,3,0,0
-0,1,2,1,2,1,3,2,2,6,10,11,5,9,4,4,7,16,8,6,18,4,12,5,12,7,11,5,11,3,3,5,4,4,5,5,1,1,0,1
-0,1,1,3,3,2,6,2,5,9,5,7,4,5,4,15,5,11,9,10,19,14,12,17,7,12,11,7,4,2,10,5,4,2,2,3,2,2,1,1
-~~~
-{: .source}
-
-So, we want to:
-
-1. Calculate the average inflammation per day across all patients.
-2. Plot the result to discuss and share with colleagues.
-
-To do all that, we'll have to learn a little bit about programming.
+It's pretty obvious that if we want to be sure our programs are right, we need to put in some effort. 
+What isn't so obvious is that focusing on quality is also the best way—in fact, the only way—to improve productivity as well. 
+Getting something wrong and then fixing it almost always takes longer than getting it right in the first place. 
+Practicing defensive programming and thinking about what the right answer is supposed to be all help get us answers faster, as well as ones that are more likely to be correct.
 
 > ## Prerequisites
 >
